@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A41701582923E14F0075A33D /* RadioStationsAPI in Frameworks */ = {isa = PBXBuildFile; productRef = A41701572923E14F0075A33D /* RadioStationsAPI */; };
 		C38A8C2E29212E6600F1152D /* Fav8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38A8C2D29212E6600F1152D /* Fav8App.swift */; };
 		C38A8C3029212E6600F1152D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38A8C2F29212E6600F1152D /* ContentView.swift */; };
 		C38A8C3229212E6800F1152D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38A8C3129212E6800F1152D /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41701582923E14F0075A33D /* RadioStationsAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = Fav8;
+			packageProductDependencies = (
+				A41701572923E14F0075A33D /* RadioStationsAPI */,
+			);
 			productName = Fav8;
 			productReference = C38A8C2A29212E6600F1152D /* Fav8.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = C38A8C2129212E6600F1152D;
+			packageReferences = (
+				A41701562923E14F0075A33D /* XCRemoteSwiftPackageReference "RadioStationsAPI" */,
+			);
 			productRefGroup = C38A8C2B29212E6600F1152D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A41701562923E14F0075A33D /* XCRemoteSwiftPackageReference "RadioStationsAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "file:///Users/se-vaszoti-01/Lab/Space/RadioStationsAPI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A41701572923E14F0075A33D /* RadioStationsAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A41701562923E14F0075A33D /* XCRemoteSwiftPackageReference "RadioStationsAPI" */;
+			productName = RadioStationsAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C38A8C2229212E6600F1152D /* Project object */;
 }
